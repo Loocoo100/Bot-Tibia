@@ -281,7 +281,7 @@ class OTCavebotTester:
         """Test WebSocket real-time updates"""
         try:
             # Connect to WebSocket
-            async with websockets.connect(WS_URL, timeout=10) as websocket:
+            async with websockets.connect(WS_URL) as websocket:
                 self.log_test("WebSocket Connection", True, "Connected successfully")
                 
                 # Send ping message
