@@ -1,0 +1,36 @@
+{
+  "name": "ot-cavebot-indetectavel",
+  "version": "1.0.0",
+  "description": "Sistema avançado de automação indetectável para Open Tibia",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd backend && pip install -r requirements.txt && cd ../frontend && npm install",
+    "start-backend": "cd backend && python server.py",
+    "start-frontend": "cd frontend && npm start",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "build": "cd frontend && npm run build",
+    "test": "echo \"Executando testes...\" && exit 0"
+  },
+  "keywords": [
+    "tibia",
+    "open-tibia",
+    "bot",
+    "cavebot",
+    "automation",
+    "undetectable",
+    "indetectavel"
+  ],
+  "author": "OT Cavebot Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/ot-cavebot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/ot-cavebot/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/ot-cavebot#readme"
+}

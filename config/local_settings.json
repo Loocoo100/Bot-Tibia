@@ -1,0 +1,48 @@
+{
+  "bot_defaults": {
+    "name": "Meu OT Bot",
+    "auto_heal": true,
+    "auto_food": true,
+    "auto_attack": true,
+    "auto_walk": false,
+    "auto_loot": true,
+    "heal_spell": "exura",
+    "heal_at_hp": 70,
+    "heal_mana_spell": "exura gran",
+    "heal_at_mp": 50,
+    "attack_spell": "exori",
+    "food_type": "ham",
+    "food_at": 90,
+    "waypoint_mode": "loop",
+    "waypoint_delay": 1000,
+    "target_creatures": ["rat", "cave rat", "rotworm"],
+    "loot_items": ["gold coin", "platinum coin", "crystal coin"],
+    "discard_items": ["leather armor", "studded armor", "chain armor"],
+    "loot_all_and_filter": true,
+    "loot_range": 3,
+    "anti_idle": true,
+    "emergency_logout_hp": 10
+  },
+  "server_settings": {
+    "backend_host": "localhost",
+    "backend_port": 8001,
+    "frontend_host": "localhost", 
+    "frontend_port": 3000,
+    "mongodb_url": "mongodb://localhost:27017",
+    "database_name": "otbot_database"
+  },
+  "ui_settings": {
+    "theme": "dark",
+    "language": "pt-BR",
+    "auto_save_config": true,
+    "show_advanced_options": false,
+    "update_interval": 1000
+  },
+  "safety_settings": {
+    "max_runtime_hours": 8,
+    "auto_logout_on_low_hp": true,
+    "pause_on_player_nearby": true,
+    "randomize_delays": true,
+    "human_like_behavior": true
+  }
+}

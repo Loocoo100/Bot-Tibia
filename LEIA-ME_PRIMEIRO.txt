@@ -1,0 +1,70 @@
+🏰 OT CAVEBOT INDETECTÁVEL - LEIA PRIMEIRO! 🏰
+
+=====================================
+   BEM-VINDO AO SEU NOVO CAVEBOT!
+=====================================
+
+Este é um sistema avançado de automação para Open Tibia
+que simula comportamento humano para ser 100% indetectável!
+
+📋 O QUE ESTE BOT FAZ:
+✅ Cura automaticamente quando vida está baixa
+✅ Ataca monstros automaticamente
+✅ Coleta itens do chão (loot)
+✅ Anda por waypoints automaticamente  
+✅ Usa comida quando necessário
+✅ Movimentos humanos (INDETECTÁVEL!)
+
+🚀 INSTALAÇÃO SUPER RÁPIDA:
+
+1. INSTALE OS PROGRAMAS (só uma vez):
+   - Python: https://www.python.org/downloads/
+   - Node.js: https://nodejs.org/
+   - Git: https://git-scm.com/download/win
+   ⚠️ NO PYTHON: Marque "Add Python to PATH"
+
+2. INSTALE O BOT:
+   📁 Clique duplo em: INSTALAR_BOT.bat
+   ⏳ Aguarde aparecer "INSTALAÇÃO CONCLUÍDA!"
+
+3. USE O BOT:
+   ▶️ Clique duplo em: EXECUTAR_BOT.bat
+   🌐 Vai abrir no seu navegador automaticamente
+   ⚙️ Configure e use!
+
+📚 PRECISA DE AJUDA DETALHADA?
+Leia os arquivos:
+- TUTORIAL_INSTALACAO.md (tutorial completo)
+- GUIA_RAPIDO.md (resumo)
+- README_INSTALACAO_SIMPLES.md (básico)
+
+🔧 ARQUIVOS IMPORTANTES:
+- INSTALAR_BOT.bat = Instala tudo
+- EXECUTAR_BOT.bat = Inicia o bot
+- PARAR_BOT.bat = Para o bot
+- VERIFICAR_INSTALACAO.bat = Verifica problemas
+
+🆘 PROBLEMAS?
+1. Execute: VERIFICAR_INSTALACAO.bat
+2. Veja o que está faltando
+3. Instale o que precisar
+4. Tente de novo
+
+🎮 COMO USAR (resumo):
+1. Abra o Tibia e entre com seu char
+2. Execute EXECUTAR_BOT.bat
+3. Configure na interface (nome, magias, alvos)
+4. Clique "Iniciar"
+5. Monitore e divirta-se!
+
+🛡️ SEGURANÇA:
+- É 100% indetectável (simula humanos)
+- Configure HP de emergência baixo (10-15%)
+- Não use 24 horas por dia
+- Monitore as primeiras horas
+
+=====================================
+           DIVIRTA-SE! 🏰⚔️
+=====================================
+
+Qualquer dúvida, leia os tutoriais detalhados!
