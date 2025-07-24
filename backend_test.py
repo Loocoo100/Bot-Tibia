@@ -318,7 +318,7 @@ class OTCavebotTester:
                 return False
             
             # Connect to WebSocket
-            async with websockets.connect(WS_URL, timeout=10) as websocket:
+            async with websockets.connect(WS_URL) as websocket:
                 self.log_test("WebSocket Stats Connection", True, "Connected for stats test")
                 
                 # Wait for stats update
