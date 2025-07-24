@@ -1,80 +1,70 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Arquivos de configuração local
+*.log
+*.tmp
+.env.local
 
-# IDE and editors
-.idea/
-.vscode/
-
-# Dependencies
+# Dependências Node.js
 node_modules/
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
-
-# Testing
-/coverage
-
-# Next.js
-/.next/
-/out/
-next-env.d.ts
-*.tsbuildinfo
-
-# Production builds
-/build
-dist/
-dist
-
-# Environment files (comprehensive coverage)
-
-*token.json*
-*credentials.json*
-
-# Logs and debug files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
-dump.rdb
 
-# System files
-.DS_Store
-*.pem
+# Arquivos de build
+/frontend/build/
+/frontend/dist/
 
-# Python
+# Arquivos Python
 __pycache__/
-*pyc*
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
 .venv/
 
-# Development tools
-chainlit.md
-.chainlit
-.ipynb_checkpoints/
-.ac
+# Banco de dados local
+data/
+*.db
+*.sqlite
 
-# Deployment
-.vercel
+# Logs
+logs/
+*.log
 
-# Data and databases
-agenthub/agents/youtube/db
+# Sistema operacional
+.DS_Store
+Thumbs.db
 
-# Archive files and large assets
-**/*.zip
-**/*.tar.gz
-**/*.tar
-**/*.tgz
-*.pack
-*.deb
-*.dylib
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Build caches
-.cache/
+# Arquivos temporários
+temp/
+tmp/
+*.temp
 
-# Mobile development
-android-sdk/ 
+# Arquivos pessoais
+minha_config.json
+backup/
+
+# Chaves e senhas (NUNCA commitar!)
+*.key
+*.pem
+secrets.txt
+credentials.json
+
+# Screenshots e imagens temporárias
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Arquivos específicos do projeto
+test_results/
+session_data/
+player_data/
